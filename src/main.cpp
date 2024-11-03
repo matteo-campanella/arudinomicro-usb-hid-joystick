@@ -13,7 +13,7 @@ int Throttle_ = 0;
 const bool initAutoSendState = true; 
 Servo trimServo,flapServo;
 int trimServoValue,trimValue,flapServoValue;
-movingAvg trim(10),flap(10),throttle(10),mixture(10),prop(10);
+movingAvg trim(10),flap(30),throttle(10),mixture(10),prop(10);
 
 
 void setup() {
